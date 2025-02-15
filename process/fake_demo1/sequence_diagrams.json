@@ -1,0 +1,8 @@
+{
+  "sequence_diagrams": [
+    {
+      "summarized_caption": "Product Addition and Checkout Sequence Diagram",
+      "mermaid_Sequence_diagram": "sequenceDiagram\n    User ->> Front-End: Visits Product Detail Page\n    Front-End ->> Front-End: Displays PDP with product details\n    User ->> Front-End: Selects size and color\n    Front-End ->> Front-End: Updates PDP with selected options\n    User ->> Front-End: Clicks 'Add to Cart'\n    Front-End ->> Cart Service: Request to add item to cart\n    Cart Service ->> Cart Service: Verifies availability and adds to cart\n    Cart Service ->> Front-End: Returns success response\n    Front-End ->> User: Displays confirmation message\n    User ->> Front-End: Clicks 'Checkout'\n    Front-End ->> Checkout Service: Redirects to Checkout page\n    Checkout Service ->> Checkout Service: Retrieves cart contents\n    User ->> Checkout Service: Completes checkout process\n    Checkout Service ->> Order Management Service: Processes order and initiates fulfillment"
+    }
+  ]
+}

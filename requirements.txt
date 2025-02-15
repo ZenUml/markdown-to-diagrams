@@ -1,0 +1,17 @@
+# Core dependencies
+rich>=10.0.0
+python-dotenv>=1.0.0
+
+# AI and LLM Integration
+openai>=1.0.0
+
+# Utilities
+requests>=2.31.0
+pydantic>=2.0.0
+python-dateutil>=2.8.2
+tqdm>=4.66.0
+json_repair>=0.35.0
+
+# Logging and Error Handling
+loguru>=0.7.0
+

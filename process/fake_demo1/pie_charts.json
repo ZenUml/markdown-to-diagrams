@@ -1,0 +1,12 @@
+{
+  "pie_charts": [
+    {
+      "summarized_caption": "Market Share in the Fast Fashion Segment",
+      "mermaid_pie_chart": "pie title Market Share\n    \"Project Phoenix\": 8\n    \"StyleNow\": 15\n    \"FashionForward\": 12"
+    },
+    {
+      "summarized_caption": "Customer Retention Rates",
+      "mermaid_pie_chart": "pie title Customer Retention\n    \"Project Phoenix\": 45\n    \"StyleNow\": 55\n    \"FashionForward\": 52"
+    }
+  ]
+}
